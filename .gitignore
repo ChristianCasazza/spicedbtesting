@@ -1,0 +1,53 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore environment variables file
+.env
+
+# Ignore dependency directories
+vendor/
+node_modules/
+
+# Ignore Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Ignore log files
+*.log
+
+# Ignore compiled binary
+main
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+
+# Ignore shell history file
+*.sh_history
+
+# Ignore temporary shell files
+*.sh~
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore Visual Studio Code project files
+.vscode/
+
+# Ignore Sublime Text project files
+*.sublime-project
+*.sublime-workspace
+
+# Ignore JetBrains project files
+*.iml
+
+# Ignore Go test outputs
+*.test

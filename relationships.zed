@@ -1,0 +1,5 @@
+oceanprotocol_testing/bucket:test-bucket owner oceanprotocol_testing/user:alice
+oceanprotocol_testing/bucket:test-bucket reader oceanprotocol_testing/user:alice
+oceanprotocol_testing/bucket:test-bucket writer oceanprotocol_testing/user:alice
+oceanprotocol_testing/bucket:test-bucket reader oceanprotocol_testing/user:bob
+oceanprotocol_testing/bucket:test-bucket reader oceanprotocol_testing/user:charlie

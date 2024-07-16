@@ -1,0 +1,11 @@
+definition oceanprotocol/user {}
+
+definition oceanprotocol/bucket {
+    relation owner: oceanprotocol/user
+    relation reader: oceanprotocol/user
+    relation writer: oceanprotocol/user
+
+    permission read = owner + reader
+    permission write = owner + writer
+    permission admin = owner
+}
